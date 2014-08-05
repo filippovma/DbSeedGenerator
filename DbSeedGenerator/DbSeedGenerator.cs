@@ -44,7 +44,7 @@ namespace DbSeedGenerator
                     .GetProperties(BindingFlags.Instance | BindingFlags.Public)
                     .Where(
                         p =>
-                            !(Attribute.IsDefined(p, typeof(DiscardAttribute)) && !p.Name.EndsWith("Id")) &&
+                            !Attribute.IsDefined(p, typeof(DiscardAttribute)) && !p.Name.EndsWith("Id") &&
                             IsNotCollection(p) && p.CanWrite && p.GetSetMethod(true).IsPublic).ToList();
             var primitiveProperties = propertiesWithPublicSetters.Where(ConsiderPrimitive);
             var notPrimitiveProperties = propertiesWithPublicSetters.Where(p => !ConsiderPrimitive(p));
