@@ -55,10 +55,6 @@
       <Project>{a0524acb-ab15-46df-9d07-a4a2e1281db2}</Project>
       <Name>DbSeedGenerator</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ObjectDecomposer\ObjectDecomposer.csproj">
-      <Project>{d10a7c98-5e16-4154-81f1-412da805f613}</Project>
-      <Name>ObjectDecomposer</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

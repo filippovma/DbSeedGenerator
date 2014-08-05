@@ -33,6 +33,10 @@
     <Reference Include="LeviySoft.Extensions">
       <HintPath>..\packages\LeviySoft.Extensions.1.1.0\lib\net45\LeviySoft.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="ObjectDecomposer, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ObjectDecomposer.1.1.0\lib\net45\ObjectDecomposer.dll</HintPath>
+    </Reference>
     <Reference Include="Patterns">
       <HintPath>..\packages\pattern_matching.2.0.0.0\lib\net45\Patterns.dll</HintPath>
     </Reference>
@@ -52,12 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ObjectDecomposer\ObjectDecomposer.csproj">
-      <Project>{d10a7c98-5e16-4154-81f1-412da805f613}</Project>
-      <Name>ObjectDecomposer</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbSeedGenerator", "DbSeedGe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbSeedGenerator.Tests", "DbSeedGenerator.Tests\DbSeedGenerator.Tests.csproj", "{2A9C8CAD-CD5F-4559-8583-1BE04F8C51E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDecomposer", "ObjectDecomposer\ObjectDecomposer.csproj", "{D10A7C98-5E16-4154-81F1-412DA805F613}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDecomposer.Tests", "ObjectDecomposer.Tests\ObjectDecomposer.Tests.csproj", "{AED56FD3-3E2D-40BE-BC21-022B52985DB6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,14 +21,6 @@ Global
 		{2A9C8CAD-CD5F-4559-8583-1BE04F8C51E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A9C8CAD-CD5F-4559-8583-1BE04F8C51E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A9C8CAD-CD5F-4559-8583-1BE04F8C51E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D10A7C98-5E16-4154-81F1-412DA805F613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D10A7C98-5E16-4154-81F1-412DA805F613}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D10A7C98-5E16-4154-81F1-412DA805F613}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D10A7C98-5E16-4154-81F1-412DA805F613}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AED56FD3-3E2D-40BE-BC21-022B52985DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AED56FD3-3E2D-40BE-BC21-022B52985DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AED56FD3-3E2D-40BE-BC21-022B52985DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AED56FD3-3E2D-40BE-BC21-022B52985DB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
