@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DbSeedGenerator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Sky@Net")]
+[assembly: AssemblyCompany("Mikhail Filippov")]
 [assembly: AssemblyProduct("DbSeedGenerator")]
 [assembly: AssemblyCopyright("Copyright © Mikhail Filippov 2014")]
 [assembly: AssemblyTrademark("")]
@@ -12,5 +12,5 @@ using System.Runtime.InteropServices;
 
 [assembly: Guid("79400718-13dc-44f7-9412-8bdfafc0990f")]
 
-[assembly: AssemblyVersion("1.0.0.1")]
-[assembly: AssemblyFileVersion("1.0.0.1")]
+[assembly: AssemblyVersion("1.0.3")]
+[assembly: AssemblyFileVersion("1.0.3")]
