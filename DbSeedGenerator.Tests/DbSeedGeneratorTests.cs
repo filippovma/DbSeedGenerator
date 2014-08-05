@@ -7,6 +7,25 @@ namespace DbSeedGenerator.Tests
 {
     public sealed class DbSeedGeneratorTests
     {
+        internal class TypeWithCollections
+        {
+            [Key]
+            public int Id { get; set; }
+
+            public string Name { get; set; }
+            public List<string> List { get; set; }
+            public IList<string> IntList { get; set; }
+            public ICollection<string> IntCollection { get; set; }
+        }
+
+        [Fact]
+        public void ShouldIgnoreCollections()
+        {
+            var result = DbSeedGenerator.GenCode(new TypeWithCollections { Id = 1, Name = "test", IntCollection = new List<string>(), IntList = new List<string>(), List = new List<string>()});
+            Assert.Equal(1, result.Count);
+            Assert.Equal(@"var typewithcollections_1 = new TypeWithCollections {Name = @""test""};", result[0]);
+        }
+
         internal sealed class TypeWithoutKey
         {
             public string Name { get; set; }

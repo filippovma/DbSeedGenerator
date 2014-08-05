@@ -14,6 +14,7 @@ namespace DbSeedGenerator
         public static Func<PropertyInfo, bool> IsNotCollection =
             info =>
                 !info.PropertyType.ImplementsInterface(typeof(IList<>)) &&
+                !info.PropertyType.ImplementsInterface(typeof(ICollection<>)) &&
                 !info.PropertyType.ExtendsClass(typeof(List<>));
 
         public static Func<PropertyInfo, bool> ConsiderPrimitive =
